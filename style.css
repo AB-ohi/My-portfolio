@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 226px;
+}
+
+nav h2{
+    font-weight: 800px;
+    font-size: 45px;
+    /* font-weight: 121px; */
+}
+
+nav h2 span{
+    color: orangered;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-aitem li{
+    list-style: none;
+    margin-left: 51px;
+}
+
+.btn-primary{
+    padding: 18px 36px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: aliceblue;
+    border: 0;
+    font-size: 20px;
+
+}
+
+.bnr{
+    display: flex;
+    margin: 0 0px 0 226px;
+    align-items: center;
+}
+
+.bnr h1{
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.bnr h2{
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.bnr p{
+    color: #272727;
+    width: 457px;
+}
+
+.bnr img{
+    border-radius: 50% 20px ;
+    margin-left: 133px;
+}
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url(/images/Untitled-1.png), url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left,right;
+
+}
+
+.about{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+.about-me{
+    margin-top: 140px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px;
+    text-align: center;
+}
+
+.about-me h1{
+    margin-bottom: 10px;
+}
+
+.about-me p{
+    font-size: 18px;
+    color: #757575;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+.about .info-des{
+    color: black;
+}
