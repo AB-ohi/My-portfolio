@@ -75,7 +75,7 @@ nav ul{
 
 .about{
     max-width: 1140px;
-    margin: 0 auto;
+    margin: auto;
     
 }
 .about-me{
@@ -171,6 +171,9 @@ section{
     
     
 }
+.resumi-summiry h2,h3,p{
+    margin-bottom: 10px;
+}
 .colm{
     margin-left: 24px;
 }
@@ -199,7 +202,7 @@ footer{
     width: 100%;
     background: #FFF8F3;
     padding-top: 100px;
-    
+    margin-top: 30px;
 }
 .contact{
     display: flex;
