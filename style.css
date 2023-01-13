@@ -42,7 +42,7 @@ nav ul{
 
 .bnr{
     display: flex;
-    margin: 0 0px 0 226px;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -63,7 +63,6 @@ nav ul{
 
 .bnr img{
     border-radius: 50% 20px ;
-    margin-left: 133px;
 }
 
 .header{
